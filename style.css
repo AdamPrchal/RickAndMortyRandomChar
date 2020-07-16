@@ -29,7 +29,8 @@ ul{
 }
 
 .characterView__item{
-    width: 15em;
+    max-width: 18em;
+    width: 18em;
     border-radius: 30px;
     background-color: #fff;
     padding: 2em;
@@ -46,7 +47,7 @@ ul{
 .characterView__image{
     border-radius: 50%;
     width: 10em;
-    height: auto;
+    height: 160px;
 }
 
 .characterView li h3 {
@@ -116,6 +117,6 @@ ul{
 
 .randomCharButton:hover{
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(0deg, #00C9FF, #92FE9D);
+    background: linear-gradient(25deg, #00C9FF, #92FE9D);
 }
 
