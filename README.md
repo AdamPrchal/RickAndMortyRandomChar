@@ -1,4 +1,6 @@
 # ✨ Rick and Morty - Random character ✨
+Hiring project for jtl
+
 ## What did I use?
 * Jquery
 * Handlebars
