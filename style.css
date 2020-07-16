@@ -1,0 +1,121 @@
+/* GENERAL STYLES */
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.interface{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CHARACTER VIEW STYLES */
+
+.characterView{
+    display: flex;
+    justify-content: space;
+    grid-gap: 2em;
+}
+
+.characterView__item{
+    width: 15em;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.characterView__card{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    text-align: center;
+}
+
+.characterView__image{
+    border-radius: 50%;
+    width: 10em;
+    height: auto;
+}
+
+.characterView li h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.characterView__locationLink{
+    text-decoration: underline;
+}
+
+.characterView__locationLink:hover{
+    cursor: pointer;
+    color: #64f38c;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+/* LOCATION VIEW STYLES */
+
+.characterView__location{
+    margin-left: 2em;
+}
+
+
+/* BUTTON STYLES */
+
+.randomCharButton{
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1em;
+    transition: all 0.5s ease;
+    background: linear-gradient(45deg, #00C9FF, #92FE9D);
+}
+
+.randomCharButton:hover{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg, #00C9FF, #92FE9D);
+}
+
+
+/* ICONS STYLES */
+
+.fa-map-marker{
+    margin-right: 0.2em;
+}
+
+.fa-mars, .fa-venus, .fa-genderless, .fa-question{
+    font-size: 5em;
+}
+
+/* BUTTON STYLES */
+
+.randomCharButton{
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1em;
+    transition: all 0.5s ease;
+    background: linear-gradient(45deg, #00C9FF, #92FE9D);
+}
+
+.randomCharButton:hover{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg, #00C9FF, #92FE9D);
+}
+
